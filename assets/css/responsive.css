@@ -1,0 +1,290 @@
+/* Tablet & PC */
+@media (min-width: 740px)
+{
+    #header .ti-menu {
+        display: none  !important ;
+    }
+}
+
+/* Mobile & table */
+@media (max-width: 1039px){
+    .places-buy-btn{
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-form .form-submit-btn{
+        padding: 15px 71px; 
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-info a{
+        color: #222;
+        opacity: 0.8;
+    }
+
+    .contact-info a:hover{
+        opacity: 1;
+    }
+
+    .up-font-16{
+        font-size: 16px;
+    }
+
+    #fooder .sosials-list a{
+        font-size: 32px;
+        margin: 0 8px;
+    }
+
+    #fooder .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+    option:before {
+        padding: 10px 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1039px)
+{
+    #header {
+        justify-content: space-around;
+    }
+
+    .contact-button {
+        display: none !important;
+    }
+
+    #fooder {
+        padding: 32px 32px 16px;
+    }   
+
+    .footer_title {
+        width: 320px;
+        margin-right: 16px;
+    }
+
+    .places-body {
+        height: 360px;
+    }
+
+    #nav li:first-child {
+        display: none;
+    }
+}
+
+/* Mobile */
+ @media (max-width: 739px){
+    body {
+        width: 100vw !important;
+    }
+
+    #main {
+        width: 100vw !important;
+        overflow-x: clip;
+    }
+
+    .header_mb {
+        align-self: flex-start;
+        padding-top: 4px;
+        width: 100%;
+    }
+
+    #navmb, .subnav{
+        list-style-type: none;
+    }
+    
+    #navmb > li {
+        display: inline-block;
+    }
+    
+    #navmb li {
+        position: relative;
+    }
+    
+    #navmb a:hover {
+        color: orange;
+    }
+    
+    #navmb>li>a{
+        color: #111;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    #navmb li a{
+        text-decoration: none;
+        line-height: 46px;
+        padding: 9px 24px;
+        display: block;
+    }
+    
+    #navmb li:hover .subnav{
+        display: block;
+    }
+    
+    #navmb .subnav a:hover {
+        color: orange;
+    }
+    
+    #navmb .subnav {
+        position: absolute;
+        display: none;
+        top: 100%;
+        background-color: #fff;
+        min-width: 200px ;
+        left: 0;
+        border-radius: 6px;
+        padding: 8px 0;
+    }
+    
+    #navmb .subnav a{
+        color: rgb(0, 0, 0);
+        padding: 0 12px;
+        line-height: 38px;
+    }
+    
+    #navmb .ti-angle-down{
+        font-size: 14px;
+    }
+
+    .s-full-width,
+    .s-col-full
+    {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        width: 100vw;
+        padding: 0 16px;
+    }
+
+    #nav {
+        display: none;
+    }
+    
+    .contact-button  {
+        display: none;
+    }
+
+    #nav {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .mobile-menu {
+        display: inline-block !important;
+    }
+
+    .mobile-icon {
+        display: block;
+        padding: 0 8px;
+    }
+
+    .mobile-icon {
+        font-size: 40px;
+        color: #333;
+        padding: 0 12px;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-button{
+        display: none;
+    }
+    
+    #navmb{
+        display: block;
+    }
+
+    #navmb li a{
+        padding: 1px 24px;
+    }
+
+    #navmb > li{
+        display: block;
+    }
+
+    #navmb .subnav {
+        position: initial;
+        background-color: #fff;
+        color: #111;
+    }
+
+    #navmb .subnav a{
+        color: #111;
+        font-weight: 500;
+        padding: 5px 40px;
+    }
+
+    #content .menber-img
+    {
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+
+    .about-text {
+        margin: 0 !important;
+    }
+
+    .menber_list {
+        padding-bottom: 16px;
+    }
+
+    .menber_list img {
+        width: 100% !important;
+    }
+
+    select {
+        height: 50px;
+    }
+
+    #fooder {
+        padding: 32px 16px 16px;
+    }
+    
+    .footer_child {
+        flex-direction: column;
+    }
+
+    .footer_call,
+    .footer_email,
+    .footer_social {
+        padding-top: 16px;
+    }
+
+    .footer_child h3 {
+        padding-top: 16px;
+    }
+
+    .footer_title p {
+        width: 400px;
+    }
+} 
+
