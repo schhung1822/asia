@@ -64,10 +64,23 @@ html {
 }
 
 /* main */
+marquee {
+    background-color: #555;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 #header {
     height: 64px;
     position: fixed;
-    top: 0;
+    top: 40px;
     left: 0;
     right: 0;
     height: 64px;
@@ -743,7 +756,7 @@ option:hover:before {
 
 /* slider */
 #slideshow-container {
-    margin-top: 64px;
+    margin-top: 104px;
     position: relative;
 }
 
