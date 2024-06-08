@@ -47,7 +47,7 @@
             }
 
             img {
-                width: 80%;
+                width: 50%;
                 display: flex;
                 margin: 0 auto;
             }
@@ -77,6 +77,11 @@
             .logo_img {
                 width: 100%;
             }
+
+            .bang {
+                display: flex;
+                width: 100%;
+            }
             
 
             @media (min-width: 740px) and (max-width: 1199px)
@@ -92,11 +97,20 @@
                 ul {
                     padding: 16px;
                 }
+
+                .bang {
+                    flex-direction: column;
+                }
+                
             }
 
             @media (max-width: 739px) {
                 .content {
                     padding: 0 16px;
+                }
+
+                .bang {
+                    flex-direction: column;
                 }
 
                 img {
@@ -175,8 +189,19 @@
                     </div>
                 </div>
 
+
                 <h1>QUY TRÌNH DỊCH VỤ</h1>
                 <img  src="./assets/img/QTDV.png" alt="Quy trình dịch vụ">
+                <div class="bang">
+                    <img  src="./assets/img/banggia.jpg" alt="Bảng giá dịch vụ">
+                    <img src="./assets/img/QTSOFA.jpg" alt="Quy trình giặt sofa vải">
+                </div>
+                <div class="bang">
+                    <img src="./assets/img/QTSOFADA.jpg" alt="Quy Trình Giặt sofa da">
+                    <img src="./assets/img/QTNEM.jpg" alt="Quy trình giặt nệm">
+                </div>
+                <img src="./assets/img/QTREM.jpg" alt="Quy trình giặt rèm">
+
 
                 <h1>MÁY MÓC CHUYÊN DỤNG</h1>
                 <img style="padding-bottom: 48px;" src="./assets/img/maymoc.png" alt="máy móc chuyên dụng">
