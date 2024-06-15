@@ -783,7 +783,7 @@ option:hover:before {
 
 .mySlides .text-content{
     position: absolute;
-    color: white;
+    color: #000;
     bottom: 47px;
     text-align: center;
     width: 100%;
