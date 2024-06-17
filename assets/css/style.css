@@ -762,7 +762,7 @@ option:hover:before {
 
 .mySlides:nth-child(1) {
     padding-top: 39%;
-    background: url('../img/1.jpg') top center / cover no-repeat;
+    background: url('../img/slide1.jpg') top center / cover no-repeat;
     position: relative;
     width: 100%;
 }
