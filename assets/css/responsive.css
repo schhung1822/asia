@@ -92,6 +92,14 @@
         width: 100vw !important;
     }
 
+     .c-6{
+        width: 50%
+    }
+    
+    .places-body {
+        height: 400px;
+    }
+
     .hiddenmb {
         display: none;
     }
