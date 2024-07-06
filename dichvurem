@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html  lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CÔNG TY TNHH VỆ SINH CÔNG NGHIỆP ASIA là một trong những đơn vị cung cấp dịch vụ vệ sinh công nghiệp uy tín tại Hồ Chí Minh, với đội ngũ nhân viên lành nghề và trang thiết bị hiện đại cùng với ưu tiên lựa chọn dung dịch làm sạch thân thiện với môi trường chắc chắn sẽ làm hài lòng Quý khách hàng.">
+        <title>ASIA - Dịch vụ giặt rèm</title>
+        <link rel="icon" href="https://scontent.xx.fbcdn.net/v/t1.15752-9/278456830_538213817682464_6288436736112179400_n.png?stp=dst-png_s206x206&_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=UDnoMjMnFasAX_pUYCM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJR-Paaq-CBjBtJzs1LloRqEGWXU8ZxDmzxKLcDqgicAg&oe=6287EA56" type="image/x-icon" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <link rel="stylesheet" href="./assets/css/grid.css">
+        <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.css">
+        <link rel="icon" type="image/x-icon" href="./assets/img/iconweb.png">
+    </head>
+    <body>
+        <style>
+            .content{
+                max-width: 1280px;
+                margin: 104px auto 0;
+            }
+
+            h1 {
+                font-size: 40px;
+                color: #4b5b68;
+                text-align: center;
+                font-weight: 700;
+                padding-top: 80px;
+                padding-bottom: 32px;
+            }
+
+            .QTDV {
+                width: 70%;
+                margin-bottom: 108px;
+            }
+
+            h2 {
+                font-size: 30px;
+                color: #4b5b68;
+                font-weight: 700;
+                padding-top: 80px;
+                padding-bottom: 32px;
+            }
+
+            h3 {
+                font-size: 24px;
+                color: #677d8f;
+                margin: 32px 0 24px ;
+                font-weight: 700;
+                margin-top: 24px;
+            }
+
+            h4 {
+                font-size: 18px;
+                color: #4b5b68;
+                font-weight: 700;
+                margin-top: 16px;
+            }
+
+            ul>h4 {
+                margin-bottom: 24px;
+            }
+
+            h4>a {
+                text-decoration: none;
+                color: #333;
+                font-weight: 700;
+            }
+
+            h4>a:hover {
+                color: #065da3;
+            }
+
+            li {
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 600;
+                color: #4b5b68;
+                margin-left: 32px;
+            }
+
+
+            img {
+                width: 50%;
+                display: flex;
+                margin: 0 auto;
+            }
+
+            .header_mb {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+
+            .exit {
+                padding: 12px 24px;
+                border-radius: 20px;
+                color: #fff;
+                background-color: #065da3;
+                font-size: 20px;
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+            .exit:hover {
+                filter: brightness(0.9);
+            }
+
+
+            .logo_img {
+                width: 100%;
+            }
+
+            .bang {
+                display: flex;
+                width: 100%;
+            }
+
+            p {
+                font-size: 18px;
+                color: #677d8f;
+                line-height: 24px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 32px;
+            }
+
+            .bang img {
+                width: 600px;
+                border-radius: 8px;
+                margin: 8px 16px;
+            }
+            
+
+            @media (min-width: 740px) and (max-width: 1199px)
+            {
+                .content {
+                    padding: 0 32px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                ul {
+                    padding: 16px;
+                }
+
+                .bang {
+                    flex-direction: column;
+                }
+
+                .QTDV {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-left: 0;
+                }
+                
+            }
+
+            @media (max-width: 739px) {
+                .content {
+                    padding: 0 16px;
+                }
+
+                .bang {
+                    flex-direction: column;
+                }
+
+                .QTDV {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-left: 0;
+                }
+
+                img {
+                    width: 100% !important;
+                }
+                
+                .bang img {
+                    width: 100 !important;
+                    margin: 0;
+                }
+
+                .mydichvu {
+                    flex-direction: column;
+                }
+
+            }
+        </style>
+
+        <div class="dichvu">
+            <marquee width="100%" height="40px" >Vệ sinh nhà  -  Giặt sofa  -  Giặt nệm  -  Vệ sinh máy lạnh, máy giặt  -  Bếp hút mùi  -  Đánh Bóng mặt đá  -  Vệ sinh văn phòng  -  Vệ sinh công nghiệp từ 15000/m2</marquee>
+            <div id="header">
+                <span class="header_mb">
+                    <a href="#" class="logo">
+                        <img src="./assets/img/logoweb.webp" alt="logo" class="logo_img">
+                        
+                    </a>
+                    <a class="exit" href="./index.html">Về trang chủ</a>
+                </span>
+            </div>
+
+            <div class="content">
+                <h1>Dịch vụ giặt rèm tại TPHCM</h1>
+                <hr style="margin: 16px auto 64px;" width="360px" align="justify-content">
+                <p>
+                    Hiện nay, dịch vụ rèm dần được nhiều gia đình và công ty biết đến và sử dụng bởi sự tiện lợi mà dịch vụ mang lại. 
+                    Giúp phòng ốc trở nên sạch sẽ hơn, rèm cửa luôn luôn đảm bảo được tính thẩm mỹ khi không còn các vết bẩn bám lâu ngày. 
+                    Cùng tìm hiểu đầy đủ hơn về dịch vụ giặt rèm của ASIA cũng như những mẹo hay giữ thảm luôn được sạch sẽ như mới qua bài viết dưới đây.
+                </p>
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <h3>GIẶT RÈM BAO THÁO LẮP</h3>
+                            <ul>
+                                <li>Vệ sinh sạch sẽ khung và khu vực treo rèm.</li>
+                                <li>Thời gian Tháo Giặt Ráp (24h)</li>
+                                <li>Đội ngũ treo rèm chuyên nghiệp, có chỉnh sửa thanh treo khi giặt rèm.</li>
+                                <li>Chuyên giặt rèm cao cấp, rèm vải, rèm voan nhập khẩu.</li>
+                                <li>Nhanh - Sạch - Tiết Kiệm ⏰,  💲</li>
+                            </ul>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <h3>Liên hệ</h3>
+                            <h4 style="margin-left: 16px;">☎ Tư vấn 24/7 - Liên hệ ngay:  <a href="tel: 0931994352">0931994352</a> </h4>
+                            <h4 style="margin-left: 16px;">Nhận vệ sinh tất cả các quận tại HCM</h4>
+                            <h4 style="margin-left: 16px;">Đ/𝙘 : khu dân cư Đông Tăng Long, phường Trường Thạnh, Quận 9</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>Vệ sinh các loại rèm</h2> 
+                <p>Các loại rèm thường sẽ làm từ 4 chất liệu thông dụng sau: cotton, voan, lụa, bố, cản sáng và nhung. Mỗi loại sẽ có mỗi đặc điểm và những yêu cầu làm sạch khác nhau.</p>
+                <div class="bang">
+                    <ul>
+                        <img  src="./assets/img/cotton.png" alt="Rèm vải cotton">
+                        <p  align="center">Rèm vải cotton</p>
+                    </ul>
+    
+                    <ul>
+                        <img  src="./assets/img/voan.jpg" alt="Rèm vải voan">
+                        <p  align="center">Rèm vải voan</p>
+                    </ul>
+                </div>
+                
+                <div class="bang">
+                    <ul>
+                        <img  src="./assets/img/nhung.jpg" alt="Rèm vải nhung">
+                        <p  align="center">Rèm vải nhung</p>
+                    </ul>
+    
+                    <ul>
+                        <img  src="./assets/img/lua.jpg" alt="Rèm vải lụa">
+                        <p  align="center">Rèm vải lụa</p>
+                    </ul>
+                </div>
+                
+                <div class="bang">
+                    <ul>
+                        <img  src="./assets/img/bo.jpg" alt="Rèm vải bố">
+                        <p  align="center">Rèm vải bố</p>
+                    </ul>
+    
+                    <ul>
+                        <img  src="./assets/img/cansang.jpg" alt="Rèm vải cản sáng">
+                        <p  align="center">Rèm vải cản sáng</p>
+                    </ul>
+                </div>
+
+
+                <h2>Chất lượng dịch vụ tại ASIA</h2>
+                <p>Chúng tôi cung cấp <span style="color: #333;">dịch vụ giặt rèm</span> chuyên nghiệp chuẩn 5 sao. Chúng tôi đảm bảo sẽ mang đến cho khách hàng sự hài lòng tuyệt đối và cam kết trả lại một không gian sạch đẹp như ý muốn khách hàng.                </p>
+                <img style="width: 80%; margin: 16px auto; border-radius: 16px;" src="./assets/img/giatrem.jpg" alt="Vệ sinh ghế sofa nhung">
+                <p  align="center">Ảnh trước và sau khi thực hiện dịch vụ giặt ghế sofa vải</p>
+ 
+                <h1>QUY TRÌNH DỊCH VỤ</h1>
+                <img class="QTDV" src="./assets/img/QTDV.webp" alt="Quy trình dịch vụ">
+                <img class="QTDV" src="./assets/img/rem.webp" alt="Quy trình dịch vụ">
+                
+            </div>
+
+
+            <div id="fooder">
+                <div class="footer_child ">
+                    <div class="footer_title">
+                        <h3>ASIA luôn lắng nghe bạn!</h3>
+                        <p>
+                            Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp 
+                            từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
+                        </p>
+                        <a href="#" class="btn_footer">Đóng góp ý kiến</a>
+                    </div>
+                    <div class="footer_contact">
+                        <div class="footer_call">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="box">
+                                <p style="font-size: 13px;">Hotline</p>
+                                <a href="tel:0855442222">0855442222</a> - <a href="tel:0931994352">0931994352</a>
+                                <p>(8:00 - 18:00)</p>
+                            </div>
+                            
+                        </div>
+                        <div class="footer_email">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="box">
+                                <p style="font-size: 13px;">Email</p>
+                                <a href="">lamtungduong89@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_social">
+                        <a href="https://www.facebook.com/profile.php?id=100067850234193" alt="facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://zalo.me/0931994352"><img src="./assets/img/zalo.webp" alt="zalo"></a>
+                        <a href="https://www.tiktok.com/@vesinhsieusach?_t=8mt5lqZmeKe&_r=1" alt="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer_child grid">
+                    <div class="row">
+                        
+                        <div class="col l-3 m-3 c-6">
+                            <h3>Về chúng tôi</h3>
+                            <a href="#band">Giới thiệu</a> <br>
+                            <a href="https://drive.google.com/file/d/1-Jximcvlu1W70ZmTb3nIV-RJIVZG6Fvl/view?usp=sharing">Hồ sơ năng lực</a> <br>
+                            <a href="https://drive.google.com/file/d/19fVfmxLnRtfYaKsJCfymmQWq1NifPhd1/view?usp=sharing">Tuyển dụng</a> 
+                        </div>
+                        <div class="col l-3 m-3 c-6">
+                            <h3>Dịch vụ</h3>
+                            <a href="#">Vệ sinh văn phòng</a> <br>
+                            <a href="#">Vệ sinh sofa</a> <br> 
+                            <a href="#">Vệ sinh nhà cửa tổng thể</a> <br>
+                            <a href="#">Vệ sinh nhà cửa hằng ngày</a> <br>
+                            <a href="#">Vệ sinh công nghiệp</a>  
+                        </div>
+                        <div class="col l-3 m-3 c-6">
+                            <h3>Chính sách</h3>
+                            <a href="#">Chính sách bảo mật</a> <br> 
+                            <a href="#">Chính sách an toàn dữ liệu</a> <br>
+                            <a href="#">Quyền lợi khách hàng</a>
+                        </div>
+                        <div class="col l-3 m-3 c-6">
+                            <h3>Thông tin doanh nghiệp</h3>
+                            <p>Công ty TNHH Vệ sinh công nghiệp ASIA</p>
+                            <p>
+                                Giấy chứng nhận ĐKKD số 0318149160 do Sở Kế hoạch và đầu tư TP.HCM cấp ngày 07/11/2023
+                            </p>
+                            <p>Mã số thuế: 0318149160</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
